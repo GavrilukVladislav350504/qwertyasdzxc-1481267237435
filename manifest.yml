@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: qwertyasdzxc
+  host: qwertyasdzxc
+  disk_quota: 1024M
+  services:
+  - qwertyasdzxc-personality_insights
